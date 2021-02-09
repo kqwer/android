@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Website</string>
+    <string name="login_page">Login Page</string>
+    <string name="title_email">Email</string>
+    <string name="title_username">Username</string>
+    <string name="title_password">Password</string>
+    <string name="welcome_note">Welcome Home</string>
+    <string name="back_home">HOME</string>
+    <string name="back_login">LOG IN</string>
+    <string name="back_network">NETWORK</string>
+    <string name="send_data">SEND DATA</string>
+    <string name="fragname_email">EMAIL</string>
+    <string name="fragname_status">STATUS</string>
+    <string name="fragname_call">CALL</string>
+    <string name="back_fragment">FRAGMENT</string>
+    <string name="back_product">PRODUCT</string>
+    <string name="product_name">Poduct Name</string>
+    <string name="product_price">Poduct Price</string>
+    <string name="product_date">Expired Date</string>
+    <string name="edit_name">Edit Poduct Name</string>
+    <string name="edit_price">Edit Poduct Price</string>
+    <string name="edit_date">Edit Expired Date</string>
+    <string name="product_save">SAVE</string>
+    <string name="product_update">UPDATE</string>
+    <string name="product_store">PRODUCT GALLERY</string>
+    <string name="store_product">STORE PRODUCT</string>
+    <string name="update_product">UPDATE DETAILS</string>
+    <string name="display_product">DISPLAY DETAILS</string>
+    <string name="logout_product">LOG OUT</string>
+    <string name="title_activity_fragment_example">FragmentExample</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="alert_name">Alert Dialog</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">ALERT!!!!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_fragment">MainFragment</string>
+
+</resources>

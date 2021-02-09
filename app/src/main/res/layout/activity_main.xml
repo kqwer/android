@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvMywelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:foregroundGravity="center"
+        android:padding="4dp"
+        android:gravity="center"
+        android:text="@string/login_page"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:hint="@string/title_email"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="170dp"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="230dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:hint="@string/title_username"
+                android:textColorHint="@color/black"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_marginTop="280dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="5dp"
+                android:hint="@string/title_password"
+                android:textColorHint="@color/black"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/btlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="350dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="@string/back_login" />
+
+</RelativeLayout>

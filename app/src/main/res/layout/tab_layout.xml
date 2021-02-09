@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="@color/colorPrimary">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="@string/fragname_email"
+    android:id="@+id/email"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:textSize="15sp">
+
+</TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="@string/fragname_status"
+    android:id="@+id/status"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:textSize="15sp">
+
+</TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="@string/fragname_call"
+    android:id="@+id/call"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:textSize="15sp">
+
+</TextView>
+
+
+
+
+</LinearLayout>

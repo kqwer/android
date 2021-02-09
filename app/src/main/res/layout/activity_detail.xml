@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:gravity="end"
+        android:text="0:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/stop"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onStop"
+        android:src="@drawable/ic_stop" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/play"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:onClick="onStart"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/ic_pause" />
+
+
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="389dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-107dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_view_login_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="login name"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_view_url1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:text="url1"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/text_view_url2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:text="url2"
+        android:layout_marginTop="21dp"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/text_view_url3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:text="url3"
+        android:textSize="15sp"
+        android:layout_marginTop="21dp"/>
+    <TextView
+        android:id="@+id/text_view_url4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:text="url4"
+        android:textSize="15sp"
+        android:layout_marginTop="19dp"/>
+    <TextView
+        android:id="@+id/text_view_url5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:text="url5"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"/>
+
+
+
+</LinearLayout>
